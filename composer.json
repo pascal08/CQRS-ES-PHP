@@ -1,0 +1,19 @@
+{
+    "name": "pascal-zero-eight/cqrs-ddd-example",
+    "authors": [
+        {
+            "name": "Pascal Lubbers",
+            "email": "pascallubbers8@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PascalZeroEight\\": "src/",
+            "Example\\": "example/"
+        }
+    },
+    "require": {
+        "php-di/php-di": "^6.0",
+        "symfony/event-dispatcher": "^4.1"
+    }
+}
